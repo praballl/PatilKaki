@@ -16,6 +16,13 @@
 }
 
 /******* MY CHANGES *********/
+
+.make-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .skill-icon{
   width: 55px;
     height: 55px;

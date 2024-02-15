@@ -44,7 +44,7 @@ const Banner = () => {
         <Container className="align-item-center">
             <Row>
                 <Col xs={12} md={6} xl={7}>
-                    <span className='tagline'>Wellcome to my Portfolio</span>
+                    <span className='tagline'>Prabal this side</span>
                     <h1>{`Hi I am a `}<span className='wrap'>{text}</span></h1>
                     <p>Software developer with knowledge of front-end and back-end development. A highly adaptable individual 
                     with a strong passion for staying updated on the latest technologies and continuously expanding their skillset.</p>

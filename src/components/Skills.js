@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import 'react-multi-carousel/lib/styles.css';
 import { Container} from 'react-bootstrap'
@@ -24,28 +25,34 @@ const Skills = () => {
               backgroundColor:'black',
              marginTop:'60px',
              borderRadius: '30px',
-             padding: '8% 0' }}>
-              <h2  className='text-center'>Skills</h2>
+             padding: '5% 8%' }}>
+              <h2  className='text-center' style={{color:'white'}}>About Me</h2>
               <br></br>
             <div className="row">
               <div className="col-md-6 text-center">
                 {/* Content for the first column in the first row */}
-                <h2>Front-End</h2>
+                <h2 style={{color:'white'}}>Professional</h2>
                 {/* <p>This is the content of the first column in the first row.</p> */}
                 <div >
-                    <a ><img style={{width:'60px'}} src={htmlLogo} alt='' /></a>
-                    <a ><img style={{width:'60px'}} src={cssLogo} alt='' /></a>
-                    <a ><img style={{width: '60px'}} src={jsLogo} alt='' /></a>
-                    <a ><img style={{width: '60px', paddingTop:'10px'}} src={rectLogo} alt='' /></a>
+                <p>
+        Hi there! I'm Prabal Namdeo, a passionate Web Developer based in Jabalpur (MP). With a background in conputer science, I specialize in front-end, back-end, more specifically in MERN.
+      </p>
+      <p> 
+        My journey in computer science began 2 years ago, and I've had the opportunity to do a masters in computer application. I'm dedicated to my problem solving skills and buildig unique projects.
+      </p>
+      
                     </div>
               </div>
               <div className="col-md-6 text-center">
                 
-                <h2>Back-End</h2>
-                    <a><img style={{width:'60px'}} src={nodeLogo} alt='' /></a>
-                    <a ><img style={{width:'60px'}} src={ExpressLogo} alt='' /></a>
-                    <a ><img style={{width:'60px'}} src={mongoLogo} alt='' /></a>
-                    <a ><img style={{width:'50px'}} src={sqlLogo} alt='' /></a>
+                <h2 style={{color:'white'}}> Me Time</h2>
+                <p>
+        When I'm not Creating, you can find me playing cricket, writing poems, drwing sketches. I really enjoy all the fun activity like clubing with close ones and chilling with friends!
+      </p>
+
+      <p>
+        I am a firm believer in the profound influence that taking a moment to rejuvenate oneself can have on enhancing productivity, expanding cognitive faculties, and cultivating a positive mental disposition.
+      </p>
               </div>
             </div>
 

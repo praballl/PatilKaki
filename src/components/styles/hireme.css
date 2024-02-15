@@ -1,0 +1,34 @@
+.hire-me {
+    color: black;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 5% 20%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .points-container {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .point {
+    margin-bottom: 15px;
+  }
+  
+  .number {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .all-img{
+    width: 120px;
+    margin: 20% 0;
+  }
+  
